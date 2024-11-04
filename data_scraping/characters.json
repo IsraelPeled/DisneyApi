@@ -1,0 +1,646 @@
+[
+  {
+    "id": 0,
+    "film": "Pinocchio (film)",
+    "name": "Blue Fairy",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/45/Profile_-_Blue_Fairy.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 1,
+    "film": "Pinocchio (film)",
+    "name": "The Coachman",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4d/Profile_%E2%80%94_Coachman.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 2,
+    "film": "Pinocchio (film)",
+    "name": "Cleo",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/31/Profile_-_Cleo.jpg",
+    "score": 1400
+  },
+  {
+    "id": 3,
+    "film": "Pinocchio (film)",
+    "name": "The Coachman's Goons",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/4e/Coachmanminion.jpg",
+    "score": 1400
+  },
+  {
+    "id": 4,
+    "film": "Pinocchio (film)",
+    "name": "Jiminy Cricket",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f0/Profile_-_Jiminy_Cricket.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 5,
+    "film": "Pinocchio (film)",
+    "name": "Figaro",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cc/Profile_-_Figaro.jpg",
+    "score": 1400
+  },
+  {
+    "id": 6,
+    "film": "Pinocchio (film)",
+    "name": "Geppetto",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/9e/Profile_-_Gepetto.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 7,
+    "film": "Pinocchio (film)",
+    "name": "Gideon",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/57/Profile_-_Gideon.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 8,
+    "film": "Pinocchio (film)",
+    "name": "Honest John",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/55/Profile_-_Honest_John.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 9,
+    "film": "Pinocchio (film)",
+    "name": "Lampwick",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/7f/Profile_-_Lampwick.jpg",
+    "score": 1400
+  },
+  {
+    "id": 10,
+    "film": "Pinocchio (film)",
+    "name": "Monstro",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/c8/Pinocchio-disneyscreencaps.com-8627.jpg",
+    "score": 1400
+  },
+  {
+    "id": 11,
+    "film": "Pinocchio (film)",
+    "name": "Pinocchio",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/9b/Profile_-_Pinocchio.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 12,
+    "film": "Pinocchio (film)",
+    "name": "Stromboli",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/fd/Profile_-_Stromboli_.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 13,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Bashful",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/52/Profile_-_Bashful.png",
+    "score": 1400
+  },
+  {
+    "id": 14,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Dopey",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f7/Profile_-_Dopey.png",
+    "score": 1400
+  },
+  {
+    "id": 15,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Doc",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/17/Profile_-_Doc.png",
+    "score": 1400
+  },
+  {
+    "id": 16,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Forest Animals",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/81/Snow-white-disneyscreencaps.com-1386.jpg",
+    "score": 1400
+  },
+  {
+    "id": 17,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Happy",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/6b/Profile_-_Happy.png",
+    "score": 1400
+  },
+  {
+    "id": 18,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Grumpy",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ef/Profile_-_Grumpy.png",
+    "score": 1400
+  },
+  {
+    "id": 19,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Huntsman",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e2/Humbert.jpg",
+    "score": 1400
+  },
+  {
+    "id": 20,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Magic Mirror",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f9/Snowwhite-disneyscreencaps.com-100.jpg",
+    "score": 1400
+  },
+  {
+    "id": 21,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "The Prince",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/4/43/Profile_-_The_Prince.png",
+    "score": 1400
+  },
+  {
+    "id": 22,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Snow White",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/33/Profile_-_Snow_White.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 23,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Sleepy",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/84/Profile_-_Sleepy.png",
+    "score": 1400
+  },
+  {
+    "id": 24,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "Sneezy",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/7e/Profile_-_Sneezy.png",
+    "score": 1400
+  },
+  {
+    "id": 25,
+    "film": "Snow White and the Seven Dwarfs",
+    "name": "The Evil Queen",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/89/Profile_-_The_Evil_Queen.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 26,
+    "film": "Tarzan",
+    "name": "Baboons",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5a/Tarzan-disneyscreencaps_com-4147.jpg",
+    "score": 1400
+  },
+  {
+    "id": 27,
+    "film": "Tarzan",
+    "name": "Baby Baboon",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/98/Tarzan_361.jpg",
+    "score": 1400
+  },
+  {
+    "id": 28,
+    "film": "Tarzan (film)",
+    "name": "Clayton",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e2/Clayton_profile_.jpg",
+    "score": 1400
+  },
+  {
+    "id": 29,
+    "film": "Tarzan (film)",
+    "name": "Clayton's Men",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/82/Tarzan-disneyscreencaps.com-7532-1-.jpg",
+    "score": 1400
+  },
+  {
+    "id": 30,
+    "film": "Tarzan & Jane",
+    "name": "Renard Dumont",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/fe/Renard_Dumont.jpg",
+    "score": 1400
+  },
+  {
+    "id": 31,
+    "film": "Tarzan (film)",
+    "name": "Flynt and Mungo",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/bd/Tarzan-disneyscreencaps.com-1685.jpg",
+    "score": 1400
+  },
+  {
+    "id": 32,
+    "film": "Tarzan",
+    "name": "Jane Porter",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ef/Profile_-_Jane_Porter.png",
+    "score": 1400
+  },
+  {
+    "id": 33,
+    "film": "Tarzan & Jane",
+    "name": "Johannes Niels",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/82/Johannes_Niels.jpg",
+    "score": 1400
+  },
+  {
+    "id": 34,
+    "film": "Tarzan (film)",
+    "name": "Kala",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/c8/Kala_Tarzan.jpg",
+    "score": 1400
+  },
+  {
+    "id": 35,
+    "film": "Tarzan",
+    "name": "Kerchak",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/31/Kerchak_Tarzan.jpg",
+    "score": 1400
+  },
+  {
+    "id": 36,
+    "film": "Tarzan (film)",
+    "name": "Kerchak and Kala's baby",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/06/Kerchak_Kala_baby.png",
+    "score": 1400
+  },
+  {
+    "id": 37,
+    "film": "Tarzan II",
+    "name": "Mama Gunda",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/68/Tarzan2_310.jpg",
+    "score": 1400
+  },
+  {
+    "id": 38,
+    "film": "Tarzan & Jane",
+    "name": "Nuru and Sheeta",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cf/Tarzan-jane-disneyscreencaps.com-1444.jpg",
+    "score": 1400
+  },
+  {
+    "id": 39,
+    "film": "Beauty and the Beast (1991 film)",
+    "name": "Mrs. Potts",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/76/Profile_-_Mrs._Potts.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 40,
+    "film": "Beauty and the Beast (1991 film)",
+    "name": "Chip Potts",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/a/ac/Profile_-_Chip.png",
+    "score": 1400
+  },
+  {
+    "id": 41,
+    "film": "Tarzan",
+    "name": "Archimedes Q. Porter",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/39/Q._Porter.jpg",
+    "score": 1400
+  },
+  {
+    "id": 42,
+    "film": "Tarzan (film)",
+    "name": "Sabor",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/fe/Tarzan-disneyscreencaps.com-629.jpg",
+    "score": 1400
+  },
+  {
+    "id": 43,
+    "film": "Tarzan & Jane",
+    "name": "Robert Canler",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3b/TV07_VR-1.jpg",
+    "score": 1400
+  },
+  {
+    "id": 44,
+    "film": "Tarzan II",
+    "name": "Uto and Kago",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/63/Tarzan2-disneyscreencaps_com-1950.jpg",
+    "score": 1400
+  },
+  {
+    "id": 45,
+    "film": "Tarzan (film)",
+    "name": "Tantor's mother",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e7/Tarzan-disneyscreencaps.com-2121.jpg",
+    "score": 1400
+  },
+  {
+    "id": 46,
+    "film": "Tarzan (film)",
+    "name": "Tarzan",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2e/Profile_-_Tarzan.png",
+    "score": 1400
+  },
+  {
+    "id": 47,
+    "film": "Tarzan (film)",
+    "name": "Tantor",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/57/Tantor_Tarzan.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 48,
+    "film": "Tarzan",
+    "name": "Terk",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/09/Terk.jpg",
+    "score": 1400
+  },
+  {
+    "id": 49,
+    "film": "Tarzan (film)",
+    "name": "John and Alice Clayton",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/00/Tar.jpg",
+    "score": 1400
+  },
+  {
+    "id": 50,
+    "film": "Tarzan II",
+    "name": "Zugor",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/a/ad/Tarzan2_847.jpg",
+    "score": 1400
+  },
+  {
+    "id": 51,
+    "film": "The Emperor's New Groove",
+    "name": "Bucky the Squirrel",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/38/Groove-disneyscreencaps.com-3281.jpg",
+    "score": 1400
+  },
+  {
+    "id": 52,
+    "film": "The Emperor's New Groove",
+    "name": "Chaca",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/d1/Chaca.jpg",
+    "score": 1400
+  },
+  {
+    "id": 53,
+    "film": "The Emperor's New Groove",
+    "name": "Chicha",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e3/Chicha.jpg",
+    "score": 1400
+  },
+  {
+    "id": 54,
+    "film": "The Emperor's New Groove",
+    "name": "Irate Chef",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/22/Emperors-new-groove-chef.jpg",
+    "score": 1400
+  },
+  {
+    "id": 55,
+    "film": "The Emperor's New Groove",
+    "name": "Incan Palace Guards",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/12/Incanpalaceguards.jpg",
+    "score": 1400
+  },
+  {
+    "id": 56,
+    "film": "The Emperor's New Groove",
+    "name": "Kronk",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/64/Kronk_.jpg",
+    "score": 1400
+  },
+  {
+    "id": 57,
+    "film": "The Emperor's New Groove",
+    "name": "Kuzco",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/ff/Profile_-_Kuzco.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 58,
+    "film": "The Emperor's New Groove",
+    "name": "Mata",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cb/Mata.jpg",
+    "score": 1400
+  },
+  {
+    "id": 59,
+    "film": "The Emperor's New Groove",
+    "name": "Pacha",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e7/Pacha.jpg",
+    "score": 1400
+  },
+  {
+    "id": 60,
+    "film": "The Emperor's New Groove",
+    "name": "Tipo",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3c/Tipo.jpg",
+    "score": 1400
+  },
+  {
+    "id": 61,
+    "film": "The Emperor's New Groove",
+    "name": "Yzma",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f2/Profile_-_Yzma.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 62,
+    "film": "The Emperor's New Groove",
+    "name": "Yupi",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/2/2e/Kronksnewgroove_061.jpg",
+    "score": 1400
+  },
+  {
+    "id": 63,
+    "film": "The Jungle Book",
+    "name": "Baloo",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/31/Profile_-_Baloo.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 64,
+    "film": "Aladdin (film)",
+    "name": "Aladdin",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/bb/Profile_-_Aladdin.png",
+    "score": 1400
+  },
+  {
+    "id": 65,
+    "film": "Beauty and the Beast (1991 film)",
+    "name": "Belle",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/1b/Profile_-_Belle.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 66,
+    "film": "Beauty and the Beast (1991 film)",
+    "name": "Beast",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/8/84/Profile_-_Beast.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 67,
+    "film": "Dumbo (1941 film)",
+    "name": "Dumbo",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e2/Profile_-_Dumbo.jpg",
+    "score": 1400
+  },
+  {
+    "id": 68,
+    "film": "Sleeping Beauty",
+    "name": "Flora, Fauna, and Merryweather",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/ea/Profile_-_Three_Good_Faries.png",
+    "score": 1400
+  },
+  {
+    "id": 69,
+    "film": "Aladdin (film)",
+    "name": "Genie",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/9/92/Profile_-_Genie.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 70,
+    "film": "The Lion King",
+    "name": "Gopher",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/09/Gopher_eyes_wide_open.jpg",
+    "score": 1400
+  },
+  {
+    "id": 71,
+    "film": "The Lion King 1.5",
+    "name": "Iron Joe",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cd/Iron_Joe.png",
+    "score": 1400
+  },
+  {
+    "id": 72,
+    "film": "Lady and the Tramp",
+    "name": "Jock",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f7/Profile_-_Jock.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 73,
+    "film": "The Lion King II: Simba's Pride",
+    "name": "Kovu",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/c/cc/Kovu-1.jpg",
+    "score": 1400
+  },
+  {
+    "id": 74,
+    "film": "Lady and the Tramp",
+    "name": "Lady",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/0/06/Profile_-_Lady.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 75,
+    "film": "The Lion King",
+    "name": "Kiara",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/da/Profile_-_Kiara.jpg",
+    "score": 1400
+  },
+  {
+    "id": 76,
+    "film": "Peter Pan (film)",
+    "name": "Lost Boys",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/dc/Peterpan-disneyscreencaps-3333.jpg",
+    "score": 1400
+  },
+  {
+    "id": 77,
+    "film": "Alice in Wonderland (1951 film)",
+    "name": "The Mad Hatter",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/19/Profile_-_Mad_Hatter.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 78,
+    "film": "Aladdin (film)",
+    "name": "Magic Carpet",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f4/Magic_Carpet_Promo.jpg",
+    "score": 1400
+  },
+  {
+    "id": 79,
+    "film": "The Lion King 1.5",
+    "name": "Uncle Max",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/f/f6/FearbyNoOneEatenByAll.png",
+    "score": 1400
+  },
+  {
+    "id": 80,
+    "film": "The Lion King 1.5",
+    "name": "Meerkat Colony",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/a/a3/Merkati33.png",
+    "score": 1400
+  },
+  {
+    "id": 81,
+    "film": "The Lion King",
+    "name": "Mufasa",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5e/Mufasa_Lion_King_.jpg",
+    "score": 1400
+  },
+  {
+    "id": 82,
+    "film": "The Jungle Book",
+    "name": "Mowgli",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/3a/Profile_-_Mowgli.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 83,
+    "film": "The Lion King",
+    "name": "Nala",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/55/Profile_-_Nala.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 84,
+    "film": "The Lion King II: Simba's Pride",
+    "name": "Nuka",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/6a/Nuka-Profil.png",
+    "score": 1400
+  },
+  {
+    "id": 85,
+    "film": "The Lion King",
+    "name": "Nobi",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/1/1f/Nobi_Square.jpg",
+    "score": 1400
+  },
+  {
+    "id": 86,
+    "film": "The Many Adventures of Winnie the Pooh",
+    "name": "Rabbit",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/d/da/Profile_-_Rabbit.png",
+    "score": 1400
+  },
+  {
+    "id": 87,
+    "film": "The Hunchback of Notre Dame",
+    "name": "Quasimodo",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/7f/Quasimodo.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 88,
+    "film": "The Lion King",
+    "name": "Rafiki",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/32/Profile_-_Rafiki.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 89,
+    "film": "Pocahontas (film)",
+    "name": "Pocahontas",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/7/7b/Profile_-_Pocahontas.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 90,
+    "film": "The Lion King",
+    "name": "Pumbaa",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/e/e6/Profile_-_Pumbaa.jpeg",
+    "score": 1400
+  },
+  {
+    "id": 91,
+    "film": "Peter Pan (film)",
+    "name": "Peter Pan",
+    "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/5e/Profile_-_Peter_Pan.jpeg",
+    "score": 1400
+  }
+]
