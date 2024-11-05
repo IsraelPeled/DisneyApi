@@ -11,4 +11,4 @@ app = FastAPI(
     
 )
 
-app.include_router(router=router, prefix=f'/api/{version}/characters')
+app.include_router(router=router, prefix=f'/api/{version}/characters', tags=["characters"])
