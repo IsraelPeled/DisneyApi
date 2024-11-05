@@ -1,16 +1,11 @@
-from fastapi import FastAPI, status
-from fastapi.routing import APIRouter
+from fastapi import APIRouter, status
 from fastapi.exceptions import HTTPException
 from configuration import collection
-from database.models import Character
-from database.schemas import all_characters, individual_data
-from bson.objectid import ObjectId
+from src.database.schemas import all_characters, individual_data
+from src.database.models import Character
 import random
 
-app = FastAPI()
 router = APIRouter()
-
-#TODO: CORSMiddleware
 
 @router.get("/random")
 async def get_random_character():
@@ -60,5 +55,3 @@ async def updated_character(character_id: int, updated_data: Character):
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Some error occurred: {e}")
     
-
-app.include_router(router)
