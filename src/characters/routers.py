@@ -35,7 +35,7 @@ async def get_charater_by_id(character_id: int):
 async def create_character(new_character: Character):
     try:
         resp = collection.insert_one(dict(new_character))
-        return {"stauts_code":200, "id": str(resp.inserted_id)}
+        return {"stauts_code":200, "id": str(resp.inserted_id), "data": new_character}
     except Exception as e:
         return HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Some error accured {e}")
 
@@ -54,4 +54,24 @@ async def updated_character(character_id: int, updated_data: Character):
         return {"status_code": 200, "message": "Character updated successfully"}
     except Exception as e:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Some error occurred: {e}")
+
+
+@router.delete("/{character_id}", status_code=status.HTTP_204_NO_CONTENT)
+async def delete_character(character_id: int):
+    try:
+        # Find the character to ensure it exists
+        result = collection.find_one({"id": character_id})
+        if not result:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Character not found")
+
+        # Delete the character
+        delete_result = collection.delete_one({"id": character_id})
+        
+        # Confirm deletion
+        if delete_result.deleted_count == 1:
+            return {"status_code": 204, "message": "Character deleted successfully"}
+        else:
+            raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Character not found")
     
+    except Exception as e:
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Some error occurred: {e}")
