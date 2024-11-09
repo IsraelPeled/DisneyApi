@@ -8,6 +8,12 @@ class CharacterModel(BaseModel):
     imageUrl: str
     score: int
 
+class CreateCharacterModel(BaseModel):
+    name: str
+    film: str
+    imageUrl: str
+    score: int
+
 class UpdateCharacterModel(BaseModel):
     name: Optional[str]
     film: Optional[str]
