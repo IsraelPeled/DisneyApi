@@ -33,7 +33,6 @@ async def get_random_character():
 async def get_all_charaters():
     data = collection.find()
     return all_characters(data)
-    #return {'message': 'hi'}
 
 @router.get("/{character_id}")
 async def get_charater_by_id(character_id: int):
@@ -47,7 +46,7 @@ async def create_character(new_character: CreateCharacterModel):
     try:
         # Find the highest existing `id` in the collection and increment by 1
         last_character = collection.find_one(sort=[("id", -1)])
-        new_id = last_character["id"] + 1 if last_character else 1  # Start with `id` 1 if the collection is empty
+        new_id = last_character["id"] + 1 if last_character else 0  # Start with `id` 1 if the collection is empty
         
         # Merge `id` with the other character data
         character_data = {"id": new_id, **new_character.dict()}
@@ -112,15 +111,12 @@ async def update_character_score(character_id: int, score_update: ScoreUpdate):
 @router.delete("/{character_id}", status_code=status.HTTP_204_NO_CONTENT)
 async def delete_character(character_id: int):
     try:
-        # Find the character to ensure it exists
         result = collection.find_one({"id": character_id})
         if not result:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Character not found")
 
-        # Delete the character
         delete_result = collection.delete_one({"id": character_id})
         
-        # Confirm deletion
         if delete_result.deleted_count == 1:
             return {"status_code": 204, "message": "Character deleted successfully"}
         else:
