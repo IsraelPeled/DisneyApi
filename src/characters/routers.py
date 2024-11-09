@@ -2,8 +2,20 @@ from fastapi import APIRouter, status
 from fastapi.exceptions import HTTPException
 from configuration import collection
 from src.database.schemas import all_characters, individual_data
-from src.database.models import CharacterModel, UpdateCharacterModel, ScoreUpdate
+from src.database.models import CreateCharacterModel, UpdateCharacterModel, ScoreUpdate
 import random
+from bson import ObjectId  # Import ObjectId to check and handle it
+from fastapi.encoders import jsonable_encoder
+
+def convert_objectid(data):
+    """Recursively convert ObjectId fields to strings in a dictionary."""
+    if isinstance(data, dict):
+        return {k: convert_objectid(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [convert_objectid(item) for item in data]
+    elif isinstance(data, ObjectId):
+        return str(data)
+    return data
 
 router = APIRouter()
 
@@ -30,16 +42,33 @@ async def get_charater_by_id(character_id: int):
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Character not found")
     return individual_data(data)
 
-
 @router.post("/")
-async def create_character(new_character: CharacterModel):
+async def create_character(new_character: CreateCharacterModel):
     try:
-        resp = collection.insert_one(dict(new_character))
-        return {"stauts_code":200, "id": str(resp.inserted_id), "data": new_character}
+        # Find the highest existing `id` in the collection and increment by 1
+        last_character = collection.find_one(sort=[("id", -1)])
+        new_id = last_character["id"] + 1 if last_character else 1  # Start with `id` 1 if the collection is empty
+        
+        # Merge `id` with the other character data
+        character_data = {"id": new_id, **new_character.dict()}
+        
+        # Insert the character into the collection
+        resp = collection.insert_one(character_data)
+        
+        # Convert _id (inserted_id) and other ObjectId fields to string
+        character_data["_id"] = str(resp.inserted_id)
+        character_data = convert_objectid(character_data)  # Convert any ObjectId fields
+        
+        # Return JSON-serializable data
+        return {
+            "status_code": 200,
+            "id": str(resp.inserted_id),
+            "data": character_data
+        }
+    
     except Exception as e:
-        return HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Some error accured {e}")
-
-
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=f"Some error occurred: {e}")
+    
 @router.put("/{character_id}")
 async def updated_character(character_id: int, updated_data: UpdateCharacterModel):
     try:
