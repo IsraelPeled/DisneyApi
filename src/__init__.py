@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from src.characters.routers import router
+from src.characters.root import root_route
 from fastapi.middleware.cors import CORSMiddleware
 from middleware import register_middleware
 
@@ -23,4 +24,5 @@ app = FastAPI(
 
 register_middleware(app)
 
+app.include_router(router=root_route, prefix=f"/api/{version}/root", tags=["root"])
 app.include_router(router=router, prefix=f"/api/{version}/characters", tags=["characters"])

@@ -28,7 +28,6 @@ async def get_random_character():
     random_character = random.choice(data)  
     return individual_data(random_character)
 
-
 @router.get("/")
 async def get_all_charaters():
     data = collection.find()
